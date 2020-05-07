@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context=".MainActivity">
 
     <CalendarView
         android:id="@+id/calendar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:minDate="01/01/1990"
-        android:maxDate="12/31/2090" />
+        android:maxDate="12/31/2090"
+        android:minDate="01/01/1990" />
 
     <TextView
         android:id="@+id/selectDate"
@@ -21,17 +20,17 @@
         android:background="#66BDBDBD"
         android:gravity="center_horizontal"
         android:text="YYYY/MM/DD"
-        android:textSize="20dp"
-        android:textColor="#000000"/>
+        android:textColor="#000000"
+        android:textSize="20sp" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerMemo"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:overScrollMode="never"
         android:scrollbarFadeDuration="0"
         android:scrollbarSize="5dp"
         android:scrollbarThumbVertical="@android:color/darker_gray"
-        android:overScrollMode="never"
         android:scrollbars="vertical" />
 
 </LinearLayout>

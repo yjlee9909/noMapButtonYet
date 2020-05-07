@@ -3,8 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".calendar.MemoActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context=".calendar.MemoActivity">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/memo_toolbar"
@@ -18,9 +18,9 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="5dp"
         android:layout_marginTop="10dp"
-        android:hint="제목을 입력하세요..."
         android:gravity="start"
-        android:inputType="textPersonName"/>
+        android:hint="제목을 입력하세요..."
+        android:inputType="textPersonName" />
 
     <ScrollView
         android:id="@+id/EditScroll"
@@ -33,9 +33,9 @@
             android:layout_height="match_parent"
             android:layout_margin="10dp"
             android:background="#00FFFFFF"
-            android:hint="여행 일정을 입력하세요..."
             android:gravity="start"
-            android:inputType="textMultiLine"/>
+            android:hint="여행 일정을 입력하세요..."
+            android:inputType="textMultiLine" />
 
     </ScrollView>
 
