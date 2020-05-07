@@ -23,17 +23,13 @@ public class HomeFragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_home, container, false);
 
-        //recycleView 초기화
         recyclerView = (RecyclerView) view.findViewById(R.id.PhotoRecycler);
 
-        //가로 레이아웃
         LinearLayoutManager horizonalLayoutManager = new LinearLayoutManager(getActivity(), RecyclerView.HORIZONTAL, false);
 
-        //레이아웃 매니저 연결
         recyclerView.setLayoutManager(horizonalLayoutManager);
         recyclerView.setAdapter(adapter);
 
-        //아이템 로드
         adapter.setItems(new ImageData().getItems());
 
         return view;
