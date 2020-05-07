@@ -1,4 +1,4 @@
-package com.example.navi_calendaredit;
+package com.example.busanapp;
 // 편의시설 네비 드로워 어플
 
 import androidx.annotation.NonNull;
@@ -11,12 +11,12 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import android.os.Bundle;
 import android.view.MenuItem;
 
-import com.example.navi_calendaredit.calendar.CalendarFragment;
-import com.example.navi_calendaredit.ui.home.FindFoodFragment;
-import com.example.navi_calendaredit.ui.home.FoodFragment;
-import com.example.navi_calendaredit.ui.home.HomeFragment;
-import com.example.navi_calendaredit.ui.home.PublicartFragment;
-import com.example.navi_calendaredit.ui.home.StorytellingFragment;
+import com.example.busanapp.calendar.CalendarFragment;
+import com.example.busanapp.ui.home.FindFoodFragment;
+import com.example.busanapp.ui.home.FoodFragment;
+import com.example.busanapp.home.HomeFragment;
+import com.example.busanapp.ui.home.PublicartFragment;
+import com.example.busanapp.ui.home.StorytellingFragment;
 import com.google.android.material.navigation.NavigationView;
 
 public class Main2Activity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {

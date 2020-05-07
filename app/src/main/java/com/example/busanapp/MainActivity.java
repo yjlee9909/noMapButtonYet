@@ -1,4 +1,4 @@
-package com.example.navi_calendaredit;
+package com.example.busanapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 

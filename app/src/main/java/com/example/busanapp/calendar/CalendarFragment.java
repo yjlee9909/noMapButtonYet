@@ -1,4 +1,4 @@
-package com.example.navi_calendaredit.calendar;
+package com.example.busanapp.calendar;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -23,7 +23,7 @@ import android.widget.CalendarView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.navi_calendaredit.R;
+import com.example.busanapp.R;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;

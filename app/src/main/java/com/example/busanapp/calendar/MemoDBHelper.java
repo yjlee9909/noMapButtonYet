@@ -1,4 +1,4 @@
-package com.example.navi_calendaredit.calendar;
+package com.example.busanapp.calendar;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;

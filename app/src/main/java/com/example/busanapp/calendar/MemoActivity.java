@@ -1,4 +1,4 @@
-package com.example.navi_calendaredit.calendar;
+package com.example.busanapp.calendar;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -12,7 +12,7 @@ import android.view.MenuItem;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.example.navi_calendaredit.R;
+import com.example.busanapp.R;
 
 public class MemoActivity extends AppCompatActivity {
     private EditText mTitle;

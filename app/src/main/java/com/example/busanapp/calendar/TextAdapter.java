@@ -1,4 +1,4 @@
-package com.example.navi_calendaredit.calendar;
+package com.example.busanapp.calendar;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -9,7 +9,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.navi_calendaredit.R;
+import com.example.busanapp.R;
 
 import java.util.ArrayList;
 
@@ -74,7 +74,7 @@ public class TextAdapter extends RecyclerView.Adapter<TextAdapter.ViewHolder> {
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         Context context = parent.getContext();
         LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-        View view = inflater.inflate(R.layout.recyclerview_item, parent, false);
+        View view = inflater.inflate(R.layout.calendar_list, parent, false);
         TextAdapter.ViewHolder vh = new TextAdapter.ViewHolder(view);
 
         return vh;

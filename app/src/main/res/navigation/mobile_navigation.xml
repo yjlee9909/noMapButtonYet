@@ -8,7 +8,7 @@
 
     <fragment
         android:id="@+id/nav_home"
-        android:name="com.example.navi_calendaredit.ui.home.HomeFragment"
+        android:name="com.example.busanapp.home.HomeFragment"
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_home">
 
@@ -18,7 +18,7 @@
     </fragment>
     <fragment
         android:id="@+id/nav_home_second"
-        android:name="com.example.navi_calendaredit.ui.home.HomeSecondFragment"
+        android:name="com.example.busanapp.ui.home.HomeSecondFragment"
         android:label="@string/home_second"
         tools:layout="@layout/fragment_home_second">
         <action
@@ -31,23 +31,23 @@
     </fragment>
     <fragment
         android:id="@+id/hospitalFragment"
-        android:name="com.example.navi_calendaredit.HospitalFragment"
+        android:name="com.example.busanapp.HospitalFragment"
         android:label="fragment_hospital"
         tools:layout="@layout/fragment_hospital" />
     <fragment
         android:id="@+id/parkingFragment"
-        android:name="com.example.navi_calendaredit.ParkingFragment"
+        android:name="com.example.busanapp.ParkingFragment"
         android:label="fragment_parking"
         tools:layout="@layout/fragment_parking" />
     <fragment
         android:id="@+id/busFragment"
-        android:name="com.example.navi_calendaredit.BusFragment"
+        android:name="com.example.busanapp.BusFragment"
         android:label="fragment_bus"
         tools:layout="@layout/fragment_bus" />
 
     <fragment
         android:id="@+id/calendarFragmet"
-        android:name="com.example.navi_calendaredit.calendar.CalendarFragment"
+        android:name="com.example.busanapp.calendar.CalendarFragment"
         android:label="fragment_calendar"
         tools:layout="@layout/fragment_calendar"/>
 

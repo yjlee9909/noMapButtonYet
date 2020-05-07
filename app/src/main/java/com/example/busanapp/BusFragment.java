@@ -1,11 +1,10 @@
-package com.example.navi_calendaredit;
+package com.example.busanapp;
 
 import android.os.Bundle;
 import android.os.StrictMode;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.Window;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
