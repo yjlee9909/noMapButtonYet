@@ -19,7 +19,7 @@ import com.example.busanapp.ui.home.PublicartFragment;
 import com.example.busanapp.ui.home.StorytellingFragment;
 import com.google.android.material.navigation.NavigationView;
 
-public class Main2Activity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
+public class LoadingActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
     private DrawerLayout drawer;
 
