@@ -33,9 +33,7 @@ public class MemoActivity extends AppCompatActivity {
 
         setSupportActionBar(toolbar);
 
-        /* 뒤로가기 버튼, 디폴트로 true만 해도 백버튼이 생김 */
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        /* 툴바의 홈버튼 이미지를 변경 */
         getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_back_white_24dp);
 
         Intent intent = getIntent();
@@ -56,16 +54,6 @@ public class MemoActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-//      int id = item.getItemId();
-
-/*      if (id == R.id.item_save) {
-            onBackPressed();
-        } else if (id == R.id.home) {
-            finish();
-            return true;
-        }
-        return super.onOptionsItemSelected(item);   */
-
         switch (item.getItemId()) {
             case android.R.id.home:
                 finish();
