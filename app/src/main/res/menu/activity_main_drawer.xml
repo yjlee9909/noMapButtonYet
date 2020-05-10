@@ -79,4 +79,17 @@
 
     </item>
 
+    <item android:title="지도">
+
+        <menu>
+            <item
+                android:id="@+id/nav_map"
+                android:icon="@drawable/ic_map"
+                android:title="기본" />
+
+
+        </menu>
+
+    </item>
+
 </menu>

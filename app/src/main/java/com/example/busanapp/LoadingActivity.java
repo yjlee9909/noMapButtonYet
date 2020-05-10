@@ -12,6 +12,8 @@ import android.os.Bundle;
 import android.view.MenuItem;
 
 import com.example.busanapp.calendar.CalendarFragment;
+import com.example.busanapp.navermap.BasicMap;
+import com.example.busanapp.navermap.MainActivity3;
 import com.example.busanapp.ui.home.FindFoodFragment;
 import com.example.busanapp.ui.home.FoodFragment;
 import com.example.busanapp.home.HomeFragment;
@@ -98,10 +100,7 @@ public class LoadingActivity extends AppCompatActivity implements NavigationView
                         new PublicartFragment()).commit();
                 break;
 
-            case R.id.nav_calendar:
-                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
-                        new CalendarFragment()).commit();
-                break;
+
 
             default:
                 break;
